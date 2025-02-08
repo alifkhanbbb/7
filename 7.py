@@ -42,9 +42,9 @@ time.sleep(2)
 print("\033[97;1m[\x1b[38;5;50m+\033[97;1m]\x1b[38;5;50m GROUP ..!")
 os.system("espeak -a 300 \"JOIN , MY , whatsapp , GROUP ,\"")
 time.sleep(2)
-os.system(f'xdg-open https://chat.whatsapp.com/ICGDPu2rDEq8uqAXGeJFFm')
-os.system(f'xdg-open https://chat.whatsapp.com/ICGDPu2rDEq8uqAXGeJFFm')
-#os.system("espeak -a 300 \"Enter,Username,and,password, \"")##
+#os.system(f'xdg-open https://chat.whatsapp.com/ICGDPu2rDEq8uqAXGeJFFm')
+#os.system(f'xdg-open https://chat.whatsapp.com/ICGDPu2rDEq8uqAXGeJFFm')
+os.system("espeak -a 300 \"Enter,Username,and,password, \"")##
 #------------------[ ASIF-King ]-------------------#
 #------------------[ USER-AGENT ]-------------------#
 ua = ["Mozilla/5.0 (Linux; Android 10; SM-A405FN Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/432.0.0.29.102",]
@@ -215,7 +215,7 @@ def clear():
 def back():
     login()
 def contact():
-    os.system('xdg-open https://www.facebook.com/djpagladirector')
+    #os.system('xdg-open https://www.facebook.com/djpagladirector')
     back()
 def linex():
     print('\033[1;37m')
@@ -225,13 +225,13 @@ os.system('xdg-open https://www.facebook.com/djpagladirector')
 logo =(f"""
 \033[0;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
 
-\x1b[0;34m██╗░░██╗██╗██╗░░██╗
+\x1b[0;94m██╗░░██╗██╗██╗░░██╗
 \x1b[0;91m╚██╗██╔╝██║╚██╗██╔╝
-\x1b[0;34m░╚███╔╝░██║░╚███╔╝░
+\x1b[0;94m░╚███╔╝░██║░╚███╔╝░
 \x1b[0;91m░██╔██╗░██║░██╔██╗░
-\x1b[0;34m██╔╝╚██╗██║██╔╝╚██╗
+\x1b[0;94m██╔╝╚██╗██║██╔╝╚██╗
 \x1b[0;91m╚═╝░░╚═╝╚═╝╚═╝░░╚═╝                                                         
-\x1b[1;94m█▀▀ █▀▄▀█ █▀█ █▄░█
+\x1b[1;97m█▀▀ █▀▄▀█ █▀█ █▄░█
 \033[1;97m██▄ █░▀░█ █▄█ █░▀█                         
                             
 \033[0;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝                       
@@ -239,8 +239,8 @@ logo =(f"""
 ║\33[0;41m        [ ASSALAMU ALAIKUM  ]         \033[0;92m║
 ╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
 \033[0;94m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗\033[1;33m 
-╠══[Author                   • \33[1;38mEmon Khalifa ]\33[1;38m    ║\033[1;31m 
-╠══[Facebook                 • Emon KhalIfA      ║  \033[1;97m  
+╠══[Author                   • \33[1;38mXIX]\33[1;38m    ║\033[1;31m 
+╠══[Facebook                 • XIXEMON     ║  \033[1;97m  
 ╠══[Github                   • \33[1;38mAROHI999 ║\33[1;34m   
 ╠══[Whatsapp                 • 01*********    ║\33[1;35m 
 ╠══[TOOLS                    • PAID ]         ║ \33[1;32m   
@@ -265,7 +265,7 @@ def meyexudi():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/arohi999/KHALIFA/blob/main/Approval.txt').text
+    httpCaht = requests.get('https://github.com/alifkhanbbb/Arohi01/blob/main/Key').text
     if id in httpCaht:
       print(fuckyoursali)
       print(hedaborakarent)
@@ -298,7 +298,7 @@ def naima():
 print(logo)
 os.system('espeak -a 300 " Your,   GIRLFRIEND,  Name,"')
 uname =input('\033[1;91m[\033[1;92m√\033[1;91m] \x1b[38;5;50mENTER YOUR GF NAME \033[1;91m: \33[1;32m')
-os.system('espeak -a 300 " Welcome,   to,  EMON , NAPA , ,  V I P,  Tools"')
+os.system('espeak -a 300 " Welcome,   to,  XIX , EMON  , ,  V I P,  Tools"')
 def back():
 	login()
 	
@@ -387,7 +387,7 @@ def menu():
     elif ASIF in ['1']:
         crack_file()
     elif ASIF in ['2','02']:
-        os.system('xdg-open https://www.facebook.com/djpagladirector')
+        #os.system('xdg-open https://www.facebook.com/djpagladirector')
         os.system("python nono.py")
     elif ASIF in ['3','03']:
         result()
