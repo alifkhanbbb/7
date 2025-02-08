@@ -226,11 +226,12 @@ logo =(f"""
 \033[0;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
 
 
-\033[0;33m░█▀▀▀ ░█▀▀█ \033[0;91m　 ░█─▄▀ ▀█▀ ░█▄─░█ ░█▀▀█ 
-\033[0;34m░█▀▀▀ ░█▀▀▄ \033[0;32m　 ░█▀▄─ ░█─ ░█░█░█ ░█─▄▄ 
-\033[0;96m░█─── ░█▄▄█ \033[0;92m　 ░█─░█ ▄█▄ ░█──▀█ ░█▄▄█
+\033[0;91m░█▀▀▀ ░█▀▀█ \033[0;91m　 ░█─▄▀ ▀█▀ ░█▄─░█ ░█▀▀█ 
+\033[0;32m░█▀▀▀ ░█▀▀▄ \033[0;32m　 ░█▀▄─ ░█─ ░█░█░█ ░█─▄▄ 
+\033[0;92m░█─── ░█▄▄█ \033[0;92m　 ░█─░█ ▄█▄ ░█──▀█ ░█▄▄█
                             
-\033[0;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝                       
+\033[0;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
+\033[0;91mUSER FB \033[0;32m PASSWORD KING                       
 ╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
 ║\33[0;41m        [ ASSALAMU ALAIKUM  ]         \033[0;92m║
 ╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
@@ -238,7 +239,7 @@ logo =(f"""
 ╠══[Author                   • \33[1;38mFB KING]\33[1;38m    ║\033[1;31m 
 ╠══[Facebook                 • FB KING  ║  \033[1;97m  
 ╠══[Github                   • \33[1;38mARBIX ║\33[1;34m   
-╠══[Whatsapp                 • 01*********    ║\33[1;35m 
+╠══[Whatsapp                 • 01867850909   ║\33[1;35m 
 ╠══[TOOLS                    • PAID ]         ║ \33[1;32m   
 ╠══[VERSION                  • 1.0 ]          ║\033[1;35m 
 \033[0;94m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[1;31m
@@ -292,9 +293,9 @@ meyexudi()
 def naima():
 	print('-------------------')
 print(logo)
-os.system('espeak -a 300 " Your,   GIRLFRIEND,  Name,"')
+os.system('espeak -a 300 " Your,  ,  Name,"')
 uname =input('\033[1;91m[\033[1;92m√\033[1;91m] \x1b[38;5;50mENTER YOUR GF NAME \033[1;91m: \33[1;32m')
-os.system('espeak -a 300 " Welcome,   to,  XIX , EMON  , ,  V I P,  Tools"')
+os.system('espeak -a 300 " Welcome,   to,  FB  , KING , ,  V I P,  Tools"')
 def back():
 	login()
 	
@@ -306,7 +307,7 @@ while attemps < 12345677901:
     username = input('\033[1;91m[\033[1;92m√\033[1;91m]\x1b[38;5;50m ENTER USERNAME: ')
     password = input('\033[1;91m[\033[1;92m√\033[1;91m]\x1b[38;5;50m ENTER PASSWORD: ')
 
-    if username == 'F' and password == '4':
+    if username == 'FB' and password == 'KING':
         print(' \033[0;92mYou Have Successfully Logged in.')
         break
     else:
